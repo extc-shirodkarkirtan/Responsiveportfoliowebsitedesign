@@ -1,0 +1,26 @@
+<svg width="220" height="220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="hexPattern" x="0" y="0" width="110" height="95.26" patternUnits="userSpaceOnUse">
+      <!-- Hexagon path with more visible stroke -->
+      <path d="M55 0 L82.5 15.88 L82.5 47.63 L55 63.51 L27.5 47.63 L27.5 15.88 Z" 
+            fill="none" 
+            stroke="rgba(37, 99, 235, 0.08)" 
+            stroke-width="1.5"/>
+      <!-- Offset hexagons for seamless tiling -->
+      <path d="M0 47.63 L27.5 63.51 L27.5 95.26 L0 111.14 L-27.5 95.26 L-27.5 63.51 Z" 
+            fill="none" 
+            stroke="rgba(37, 99, 235, 0.08)" 
+            stroke-width="1.5"/>
+      <path d="M110 47.63 L137.5 63.51 L137.5 95.26 L110 111.14 L82.5 95.26 L82.5 63.51 Z" 
+            fill="none" 
+            stroke="rgba(37, 99, 235, 0.08)" 
+            stroke-width="1.5"/>
+      <!-- Add connecting nodes for more detail -->
+      <circle cx="55" cy="0" r="2" fill="rgba(37, 99, 235, 0.06)"/>
+      <circle cx="82.5" cy="15.88" r="2" fill="rgba(37, 99, 235, 0.06)"/>
+      <circle cx="27.5" cy="15.88" r="2" fill="rgba(37, 99, 235, 0.06)"/>
+    </pattern>
+  </defs>
+  <rect width="220" height="220" fill="#FFFFFF"/>
+  <rect width="220" height="220" fill="url(#hexPattern)"/>
+</svg>
