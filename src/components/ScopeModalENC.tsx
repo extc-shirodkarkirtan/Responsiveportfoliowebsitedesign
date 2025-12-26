@@ -111,7 +111,7 @@ export function ScopeModalENC({
                   <small>Price range</small>
                 </div>
                 <div className="font-semibold text-[var(--ink-900)]">
-                  Typical €300–€600
+                  €50–€200
                 </div>
               </div>
 

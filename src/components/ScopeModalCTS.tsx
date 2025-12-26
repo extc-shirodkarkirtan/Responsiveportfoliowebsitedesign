@@ -107,7 +107,7 @@ export function ScopeModalCTS({
                   <small>Price range</small>
                 </div>
                 <div className="font-semibold text-[var(--ink-900)]">
-                  €600–€1,200+
+                  €100–€300
                 </div>
               </div>
 

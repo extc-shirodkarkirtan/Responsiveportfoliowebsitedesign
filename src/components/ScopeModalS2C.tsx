@@ -119,7 +119,7 @@ export function ScopeModalS2C({
                   <small>Price range</small>
                 </div>
                 <div className="font-semibold text-[var(--ink-900)]">
-                  Typical €350–€700
+                  €30–€100
                 </div>
               </div>
 

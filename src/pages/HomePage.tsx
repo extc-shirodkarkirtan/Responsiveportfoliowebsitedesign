@@ -38,7 +38,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
         "Reverse-engineering from photos with supplied dimensions",
         "Deliverables: STEP + STL + notes PDF",
       ],
-      range: "Typical €350–€700",
+      range: "€30–€100",
       backgroundImage: scanToCADImg,
     },
     {
@@ -51,7 +51,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
         "2 iterations with fit-checks",
         "Deliverables: STEP + STL + 3–4 renders",
       ],
-      range: "Typical €300–€600",
+      range: "€50–€200",
       backgroundImage: deviceEnclosureImg,
     },
     {
@@ -64,7 +64,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
         "BOM-lite (fasteners/materials)",
         "Deliverables: STEP + STL + 6–8 renders",
       ],
-      range: "Typical €600–€1,200+",
+      range: "€100–€300",
       backgroundImage: conceptPrototypeImg,
     },
   ];

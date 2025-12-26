@@ -192,9 +192,9 @@ export function ContactPage() {
                         <SelectValue placeholder="Select range" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="300-600">€300-€600</SelectItem>
-                        <SelectItem value="600-1200">€600-€1,200</SelectItem>
-                        <SelectItem value="1200+">€1,200+</SelectItem>
+                        <SelectItem value="30-100">€30-€100</SelectItem>
+                        <SelectItem value="100-300">€100-€300</SelectItem>
+                        <SelectItem value="300+">€300+</SelectItem>
                         <SelectItem value="flexible">Flexible</SelectItem>
                       </SelectContent>
                     </Select>
